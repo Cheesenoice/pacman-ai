@@ -13,11 +13,7 @@ Dự án Python triển khai các thuật toán tìm kiếm trí tuệ nhân t�
   - Breadth-First Search (BFS)
   - Uniform Cost Search (UCS)
   - A\* Search
-  - Iterative Deepening Search (IDS)
-  - Enforced Hill Climbing (EHC)
-- **Bài toán Capsule Search**:
-  - Tạo `CapsuleSearchProblem` và `CapsuleSearchAgent` để Pacman ăn capsule trước, sau đó thu thập hết thức ăn.
-  - Heuristic tùy chỉnh (`capsuleProblemHeuristic`) dựa trên khoảng cách Manhattan.
+
 
 ## Cài đặt và Chạy
 
@@ -26,7 +22,6 @@ Dự án Python triển khai các thuật toán tìm kiếm trí tuệ nhân t�
 
    ```bash
    python pacman.py -l tinyMaze -p SearchAgent -a fn=dfs
-   python pacman.py -l capsuleSearch -p CapsuleSearchAgent -a fn=astar,prob=CapsuleSearchProblem,heuristic=capsuleProblemHeuristic
    ```
 
 ## 
